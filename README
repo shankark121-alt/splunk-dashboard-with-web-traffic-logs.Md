@@ -8,7 +8,7 @@
 
 command :
 
-   wget -O splunk-installer.deb "YOUR_SPLUNK_DOWNLOAD_LINK"
+    wget -O splunk-installer.deb "YOUR_SPLUNK_DOWNLOAD_LINK"
 
 3. Open your terminal and navigate to your download folder:
 
