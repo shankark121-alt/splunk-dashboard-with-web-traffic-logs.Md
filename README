@@ -1,1 +1,35 @@
+# INTRODUCTION
+
+1. First go the splunk official website and sign in afree account.
+
+2. Choose Linux and download the .deb package. Alternatively, 
+
+   grab the wget link from their page to download it directly in your terminal:
+
+command :
+
+   wget -O splunk-installer.deb "YOUR_SPLUNK_DOWNLOAD_LINK"
+
+3. Open your terminal and navigate to your download folder:
+
+Command :
+   cd ~/Downloads
+
+4. Install the package using the Debian package manager:
+
+Command :
+   sudo dpkg -i splunk-*.deb
+
+5. Navigate to the Splunk executable folder and start the service:
+
+Command :
+   cd /opt/splunk/bin
+   sudo ./splunk start --accept-license
+
+6. Access the Splunk Web UI by opening your browser and entering 
+   http://localhost:8000 
+   (Instead of localhost if you open the splunk in your host machine browser 
+    you type ip of kali linux:8000)
+
+
 
