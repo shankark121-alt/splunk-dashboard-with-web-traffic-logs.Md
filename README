@@ -1,4 +1,6 @@
-🚀 INTRODUCTION: SPLUNK INSTALLATION ON KALI LINUXFollow these structured steps to successfully download, install, and launch Splunk Enterprise on your Kali Linux system.
+🚀 INTRODUCTION: 
+
+     SPLUNK INSTALLATION ON KALI LINUXFollow these structured steps to successfully download, install, and launch Splunk Enterprise on your Kali Linux system.
 
 📦 Step 1: Account Creation & Package SelectionFirst, navigate to the official Splunk website and sign up for a free account. Once logged in, go to the download section, 
           choose Linux, and target the .deb package.Instead of downloading it through the browser, you can copy the wget link from their page to pull it directly into your terminal.
