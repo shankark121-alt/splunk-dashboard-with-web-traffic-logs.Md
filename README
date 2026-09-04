@@ -1,19 +1,6 @@
-## Objective
+🛡️ Splunk SIEM Dashboard for Apache Logs (Haxcamp Project)
 
-## Lab Set up
+📌 Project Overview
 
-Setting up Time Range
-
-Add Time Range Button
-
-Click on Add Input
-
-Select Time and click on pencil icon
-
-Set Label to Time Range and Token time_range
-
-Again Add Input
-
-Select Submit
-
-Note: For all future panel, set the time to time_range for consistency.
+This repository contains a step-by-step hands-on implementation of an Apache Log Monitoring & Threat Hunting Dashboard in Splunk Enterprise, 
+ based on the Haxcamp SOC Analyst Lab framework.
