@@ -1,25 +1,19 @@
-🚀 # INTRODUCTION: 
+## Objective
 
-     SPLUNK INSTALLATION ON KALI LINUXFollow these structured steps to successfully download, install, and launch Splunk Enterprise on your Kali Linux system.
+## Lab Set up
 
-📦 Step 1: Account Creation & Package SelectionFirst, navigate to the official Splunk website and sign up for a free account. Once logged in, go to the download section, 
-          choose Linux, and target the .deb package.Instead of downloading it through the browser, you can copy the wget link from their page to pull it directly into your terminal.
-           Command :wget -O splunk-installer.deb "YOUR_SPLUNK_DOWNLOAD_LINK"
+Setting up Time Range
 
-📂 Step 2: Navigate to DownloadsOpen your terminal application and switch over to the folder where your installer package was saved.
-           Command :~/Downloads
+Add Time Range Button
 
- 🛠️ Step 3: Execute the InstallerSince Kali Linux is built on a Debian foundation, use the Debian package manager (dpkg) with root privileges 
-              to unpack and install the software.
-              Command :sudo dpkg -i splunk-*.deb
+Click on Add Input
 
-⚙️ Step 4: Accept License & Start Splunk ServiceNavigate into the system binaries directory where Splunk was installed. From there, initiate the 
-            startup script while automatically accepting the user license agreement.(Note: You will be prompted here to configure your administrator username and password).
-             Command : cd /opt/splunk/bin
-                       sudo ./splunk start --accept-license
+Select Time and click on pencil icon
 
-🌐 Step 5: Access the Splunk Web UIOnce the service starts up successfully, you can log into the graphical dashboard using a web browser:On your Kali Linux machine: Open your browser 
-            and navigate to:text  http://localhost:8000
-  
-    Use code with caution.From a host machine browser (Remote Access): Replace localhost with your Kali Linux system's IP address:text
-    http://<YOUR_KALI_IP_ADDRESS>:8000
+Set Label to Time Range and Token time_range
+
+Again Add Input
+
+Select Submit
+
+Note: For all future panel, set the time to time_range for consistency.
