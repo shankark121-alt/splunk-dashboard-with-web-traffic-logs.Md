@@ -72,7 +72,8 @@ Enter the Search String as below
 
 <img width="1298" height="626" alt="image" src="https://github.com/user-attachments/assets/c2e5c076-0546-475d-b60d-3f8dade1d2bc" />
 
-<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/8b9ee0ee-0ff2-4f23-9f8f-335bb049763a" />
+
+<img width="1273" height="634" alt="image" src="https://github.com/user-attachments/assets/19efb5c6-1ddf-4c17-85c4-462ad31588f2" />
 
 
 # Successful Response
@@ -91,6 +92,79 @@ Enter the Search String as below
 | stats count AS "Successful Responses"	
 
 <img width="1480" height="602" alt="image" src="https://github.com/user-attachments/assets/87f1d4c8-532f-409c-8c77-bfa6b72447ef" />
+
+# Client Errors (4xx)
+
+Click on Add Panel
+
+Under New, choose Single Value
+
+Use Shared Time Picker time_range
+
+Set Content Title to "Client Errors"
+
+Enter the Search String as below:
+
+source="apache_mixed_access_full (1).json" host="webserver" sourcetype="_json" | where status>=400 and status<500 | stats count AS "Client Errors"
+
+<img width="979" height="478" alt="image" src="https://github.com/user-attachments/assets/412595b5-d690-42d9-b8f1-496a49ae34a9" />
+
+<img width="973" height="495" alt="image" src="https://github.com/user-attachments/assets/e1501e67-119d-4852-bccc-0cf0a907c1f0" />
+
+# Server Errors (5xx)
+
+Click on Add Panel
+
+Under New, choose Single Value
+
+Use Shared Time Picker time_range
+
+Set Content Title to "Server Errors (5xx)"
+
+Enter the Search String as below:
+
+source="apache_mixed_access_full (1).json" host="webserver" sourcetype="_json" 
+| where status>=400 and status<500 
+| stats count AS "Client Errors"
+
+<img width="970" height="499" alt="image" src="https://github.com/user-attachments/assets/5c94353b-a077-43e7-a18b-4caf01748f28" />
+
+# Web Stats
+
+Goal: Give a quick summary of Web Statstics.
+
+Top Requested URIs
+
+Click on Add Panel
+
+Under New, choose Bar Chart
+
+Use Shared Time Picker time_range
+
+Set Content Title to "Top Requested URIs"
+
+Enter the Search String as below
+
+<img width="975" height="499" alt="image" src="https://github.com/user-attachments/assets/15042f20-5f4b-4fb2-ab47-fa187dfb6353" />
+
+# Top Users by IP Address
+
+Click on Add Panel
+
+Under New, choose Bar Chart
+
+Use Shared Time Picker time_range
+
+Set Content Title to "Top Users by IP Address"
+
+Enter the Search String as below
+
+<img width="965" height="495" alt="image" src="https://github.com/user-attachments/assets/4a6be06b-34ef-4ddf-bfb8-85ab6fe3d247" />
+
+
+
+
+
 
 
 
