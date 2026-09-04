@@ -145,7 +145,7 @@ Set Content Title to "Top Requested URIs"
 
 Enter the Search String as below
 
-<img width="975" height="499" alt="image" src="https://github.com/user-attachments/assets/15042f20-5f4b-4fb2-ab47-fa187dfb6353" />
+<img width="965" height="495" alt="image" src="https://github.com/user-attachments/assets/4a6be06b-34ef-4ddf-bfb8-85ab6fe3d247" />
 
 # Top Users by IP Address
 
@@ -159,7 +159,6 @@ Set Content Title to "Top Users by IP Address"
 
 Enter the Search String as below
 
-<img width="965" height="495" alt="image" src="https://github.com/user-attachments/assets/4a6be06b-34ef-4ddf-bfb8-85ab6fe3d247" />
 
 <img width="965" height="527" alt="image" src="https://github.com/user-attachments/assets/4506a263-9763-4cde-a8b2-ed94bfcd4b3a" />
 
