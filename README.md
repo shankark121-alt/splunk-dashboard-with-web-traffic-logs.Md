@@ -49,7 +49,7 @@ Click Next.
 
 Select Submit
 
-<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/ed6a6832-829a-48ec-bec5-864391b231cc" />
+<img width="1216" height="615" alt="image" src="https://github.com/user-attachments/assets/4590cee5-3f3d-410c-b5bc-ef7c6618920e" />
 
 ## Web Activities
 
