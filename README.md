@@ -70,7 +70,7 @@ Enter the Search String as below
  source="apache_mixed_access_full (1).json" host="webserver" sourcetype="_json" 
 | stats count AS "Total Web Requests"
 
-<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/fca9146c-ce52-48e4-9569-5d120ec419a9" />
+<img width="1298" height="626" alt="image" src="https://github.com/user-attachments/assets/c2e5c076-0546-475d-b60d-3f8dade1d2bc" />
 
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/8b9ee0ee-0ff2-4f23-9f8f-335bb049763a" />
 
