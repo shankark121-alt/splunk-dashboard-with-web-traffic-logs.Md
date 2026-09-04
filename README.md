@@ -1,4 +1,4 @@
-🛡️ ## Splunk SIEM Dashboard for Apache Logs (Haxcamp Project)
+🛡️ ##Splunk SIEM Dashboard for Apache Logs (Haxcamp Project)
 
 📌 ## Project Overview
 
