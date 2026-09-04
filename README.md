@@ -181,7 +181,13 @@ Enter the Search String as below:
 | stats count by Country
 | geom geo_countries featureIdField="Country"
 
+<img width="1038" height="526" alt="image" src="https://github.com/user-attachments/assets/c1a84768-613b-4838-ac72-86b54f1a0bf0" />
 
+# Conclusion
+
+plunk provides a robust, real-time Security Information and Event Management (SIEM) solution for collecting, parsing, and visualizing server telemetry. By ingesting raw Apache web server access logs, transforming raw data into structured fields, and building targeted SPL (Search Processing Language) queries, security operations teams gain end-to-end operational visibility.
+
+Through custom dashboard panels, time-series charts, and geo-location mapping, Splunk transforms unorganized log entries into actionable security intelligence. It allows SOC analysts to quickly detect abnormal traffic patterns, flag status code errors, trace client IP behavior, and identify brute-force or scanner attacks in real time, making it an essential platform for modern threat hunting, incident response, and web infrastructure monitoring.
 
 
 
