@@ -161,6 +161,27 @@ Enter the Search String as below
 
 <img width="965" height="495" alt="image" src="https://github.com/user-attachments/assets/4a6be06b-34ef-4ddf-bfb8-85ab6fe3d247" />
 
+<img width="965" height="527" alt="image" src="https://github.com/user-attachments/assets/4506a263-9763-4cde-a8b2-ed94bfcd4b3a" />
+
+
+# Web Traffic by Client IP Addresses
+
+Click on Add Panel
+
+Under New, choose Choropleth Map
+
+Use Shared Time Picker time_range
+
+Set Content Title to Web Traffic by Client IP Addresses
+
+Enter the Search String as below:
+
+  source="apache_mixed_access_full (1).json" host="webserver" sourcetype="_json"     method=GET
+| table ip
+| iplocation ip
+| stats count by Country
+| geom geo_countries featureIdField="Country"
+
 
 
 
