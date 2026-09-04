@@ -92,6 +92,7 @@ Enter the Search String as below
  source="apache_mixed_access_full (1).json" host="webserver" sourcetype="_json" method=GET status=200 
 | stats count AS "Successful Responses"	
 
+<img width="1480" height="602" alt="image" src="https://github.com/user-attachments/assets/87f1d4c8-532f-409c-8c77-bfa6b72447ef" />
 
 
 
