@@ -29,7 +29,7 @@ Click Select File and browse to your Apache log file location (e.g., /var/log/ap
 
 Click Next.
 
-<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/7592c272-2023-4b28-bbd1-7279a61b8e67" />
+<img width="1299" height="481" alt="image" src="https://github.com/user-attachments/assets/5b9eef31-9443-4359-99cb-f281fac3c1ee" />
 
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/2ea12637-ad85-4d94-953a-d5e449dcebe9" />
 
