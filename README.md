@@ -31,8 +31,6 @@ Click Next.
 
 <img width="1299" height="481" alt="image" src="https://github.com/user-attachments/assets/5b9eef31-9443-4359-99cb-f281fac3c1ee" />
 
-<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/2ea12637-ad85-4d94-953a-d5e449dcebe9" />
-
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/298be55d-f1db-41d2-a1cc-2b9bd1e48db8" />
 
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/f8bb41f4-7f79-4b4e-8b95-bed45764942b" />
