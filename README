@@ -1,6 +1,6 @@
-🛡️ Splunk SIEM Dashboard for Apache Logs (Haxcamp Project)
+🛡️ ## Splunk SIEM Dashboard for Apache Logs (Haxcamp Project)
 
-📌 Project Overview
+📌 ## Project Overview
 
 This repository contains a step-by-step hands-on implementation of an Apache Log Monitoring & Threat Hunting Dashboard in Splunk Enterprise, 
- based on the Haxcamp SOC Analyst Lab framework.
+based on the Haxcamp SOC Analyst Lab framework.
